@@ -656,6 +656,10 @@ body *{
 	}
 }
 @media (max-width:1280px){
+	.main__treatments{
+		padding-left:70px;
+		padding-right:70px;
+	}
 	.syrup__block .syrup__image{
 		margin-right:110px;
 	}
@@ -833,7 +837,27 @@ body *{
 	.inner__symptoms{
 		padding:50px 30px;
 	}
+	.main__treatments>.elem__treatment{
+		max-width:370px;
+	}
+	.side__effects>ul{
+		grid-column-gap:30px;
+	}
+	.side__effects>ul li{
+		font-size: 18px;
+	}
+	.elem__treatment .content__treatment>p{
+		font-size:18px;
+		line-height:28px;
+	}
+	.head__treatment>h6{
+		font-size:26px;
+	}
+	.image__treatment{
+		margin-bottom:25px;
+	}
 }
+
 
 .body__arrow>.small__arrow{
 	display: none;
@@ -842,6 +866,54 @@ body *{
 	display: none;
 }
 @media (max-width:991px){
+	.side__effects>p{
+		font-size:22px;
+	}
+	.main__treatments{
+		flex-direction:column;
+	}
+	.main__treatments>.elem__treatment{
+		max-width:100%;
+	}
+	.fourth__image>img{
+		max-width:140px;
+	}
+	.third__image>img{
+		max-width: 80px;
+	}
+	.second__image>img{
+		max-width:90px;
+	}
+	.first__image>img{
+		max-width:110px;
+	}
+	.treatments__block .treat__image.first__image{
+		left:30px;
+	}
+	.treatments__block .treat__image.second__image{
+		top:-120px;
+	}
+	.treatments__block .treat__image.third__image{
+		top:-120px;
+	}
+	.treatments__block .treat__image.fourth__image{
+		top:-120px;
+	}
+	.side__effects>ul{
+		max-width:420px;
+		grid-column-gap:50px;
+	}
+	.main__treatments:before{
+		content:none;
+	}
+	.head__treatments>h2{
+		font-size:60px;
+		line-height:60px;
+	}
+	.head__treatments>h6{
+		font-size:30px;
+		line-height:30px; 	
+	}
 	.column__myths{
 		margin-bottom:20px;
 	}
@@ -1092,11 +1164,97 @@ body *{
 		padding-top:100px;
 		padding-bottom:90px;
 	}
+	.head__treatments{
+		margin-bottom:40px;
+	}
+	.elem__treatment{
+		margin-bottom:35px;
+	}
+	.elem__treatment:last-child{
+		margin-bottom:0px;
+	}
+	.head__treatment{
+		display: flex;
+		align-items:center;
+	}
+	.head__treatment .image__treatment{
+		margin-right:15px;
+	}
+	.image__treatment>img{
+		max-width:80px;
+	}
+	.image__treatment{
+		margin-bottom:0px;
+	}
+	.head__treatment{
+		margin-bottom:25px;
+	}
+	.head__treatment>h6{
+		max-width:150px;
+		text-align:left;
+		margin-bottom:0px;
+		line-height:30px;
+	}
 }
 .small__syrup{
 	display: none;
 }
 @media (max-width:767px){
+	.elem__treatment .content__treatment>p{
+		font-size:16px;
+		line-height:26px;
+	}
+	.side__effects>ul li{
+		font-size:16px;
+		line-height:22px;
+		font-weight:500;
+	}
+	.side__effects>p{
+		font-size:20px;
+		line-height:20px;
+		margin-bottom:5px;
+	}
+	.fourth__image>img{
+		max-width:90px;
+	}
+	.treatments__block .treat__image.fourth__image{
+		top:-100px;
+	}
+	.main__treatments{
+		padding-left:15px;
+		padding-right:15px;
+	}
+	.second__image>img{
+		max-width:60px;
+	}
+	.treatments__block .treat__image.second__image{
+		top:-130px;
+	}
+	.first__image>img{
+		max-width:60px;
+	}
+	.treatments__block .treat__image.first__image{
+		top:-140px;
+	}
+	.third__image>img{
+		max-width:50px;
+	}
+	.image__treatment>img{
+		max-width:60px;
+	}
+	.treatments__block .treat__image.third__image{
+		top:-100px;
+		left:auto;
+		right:160px;
+	}
+	.treatments__block .treat__image.second__image{
+		left:140px;
+	}
+	.head__treatments>h2{
+		font-size:50px;
+		line-height:50px;
+		text-align:center;
+	}
 	.head__myths>h2{
 		font-size:50px;
 		line-height:50px;
@@ -1233,6 +1391,63 @@ body *{
 	display: none;
 }
 @media (max-width:480px){
+	.treatments__block{
+		padding-top:60px;
+	}
+	.side__effects>ul{
+		grid-column-gap:0px;
+	}
+	.side__effects>ul li{
+		font-size:15px;
+		line-height:20px;
+	}
+	.treatments__block .treat__image.fourth__image{
+		right:10px;
+		top:-70px;
+	}
+	.treatments__block .treat__image.first__image{
+		top:-95px;
+		left:20px;
+	}
+	.treatments__block .treat__image.second__image{
+		top:-85px;
+		left:80px;
+	}
+	.treatments__block .treat__image.third__image{
+		top:-95px;
+		right:110px;
+	}
+	.head__treatments>h2{
+		font-size:26px;
+		padding-left:10px;
+		padding-right:10px;
+		margin:10px 0px;
+		line-height:34px;
+	}
+	.fourth__image>img{
+		max-width: 80px;
+	}
+	.third__image>img{
+		max-width:35px;
+	}
+	.second__image>img{
+		max-width:45px;
+	}
+	.first__image>img{
+		max-width:45px;
+	}
+	.head__treatments>h6{
+		font-size:24px;
+		line-height:24px;
+	}
+	.elem__treatment .content__treatment>p{
+		font-size:14px;
+		line-height:21px;
+	}
+	.head__treatment>h6{
+		font-size:20px;
+		line-height:24px;
+	}
 	.head__myths>h6{
 		font-size:24px;
 		line-height:24px;
