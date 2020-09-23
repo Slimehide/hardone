@@ -17,6 +17,8 @@ body *{
 	max-width:1250px;
 	margin-left:auto;
 	margin-right:auto;
+	padding-left:30px;
+	padding-right:30px;
 }
 .outer__diabet .text__info{
 	margin-right:150px;
@@ -239,7 +241,7 @@ body *{
     color: #fff;
     font-size: 45px;
     font-family: "Pacifico" , sans-serif;
-    line-height: 4	5px;
+    line-height: 45px;
     color:#E11948;
     font-weight:300;
 }
@@ -334,18 +336,19 @@ body *{
 	margin:0px;
 }
 .myths__block{
-	background:url("../img/gradientback.svg");
+	background:url("../img/curvedback.png");
 	background-repeat: no-repeat;
-	background-size:cover;
+	background-size:100% 100%;
 	background-position:top right;
-	padding-top:280px;
-	padding-bottom:180px;
+	padding-top:290px;
+	padding-bottom:250px;
+	margin-bottom: -40px;
 }
 .head__myths{
 	display: flex;
 	align-items:center;
 	justify-content: center;
-	margin-bottom:35px;
+	margin-bottom:45px;
 }
 .head__myths>h6{
 	margin-right:90px;
@@ -378,7 +381,7 @@ body *{
 	margin-right:auto;
 }
 .elem__myth{
-	margin-bottom:40px;
+	margin-bottom:50px;
 }
 .elem__myth:last-child{
 	margin-bottom:0px;
@@ -401,10 +404,816 @@ body *{
 	padding-right:150px;
 	margin-left:auto;
 	margin-right:auto;
+	padding-bottom:90px;
 	display: flex;
 	align-items:flex-start;
 	justify-content: space-between;
 }
 .main__treatments>.elem__treatment{
 	max-width:450px;
+}
+.treatments__block{
+	padding-top:65px;
+	padding-top: 90px;
+}
+.head__treatments{
+	max-width:1400px;
+	display: flex;
+	align-items:center;
+	flex-direction:column;
+	justify-content: center;
+	margin-left:auto;
+	margin-right:auto;
+}
+.image__treatment{
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	margin-bottom:40px;
+}
+.head__treatment>h6{
+	text-align:center;
+	color:#10A3B2;
+	font-size:35px;
+	font-weight:bold;
+	margin:0px;
+	margin-bottom:10px;
+}
+.main__treatments>.elem__treatment:nth-child(2) .head__treatment>h6{
+	text-align:left;
+}
+.elem__treatment .content__treatment>p{
+	font-size:21px;
+	font-weight:400;
+	line-height:31px;
+	margin-top:0px;
+}
+.elem__treatment .content__treatment>p span{
+	font-weight:bold;
+}
+.side__effects>p{
+	margin-top:0px;
+	margin-bottom:10px;
+	color:#E9454A;
+	font-size:30px;
+	font-weight:600;
+}
+.side__effects>ul{
+	padding:0px;
+	list-style-type: none;
+	margin:0px;
+	display: grid;
+	grid-template-columns:repeat(2 , 1fr);
+	grid-column-gap:50px;
+}
+.side__effects>ul li{
+	display: flex;
+	align-items:center;
+	color:#2B2523;
+	font-size:22px;
+	font-weight:500;
+}
+.side__effects>ul li span{
+	font-size:22px;
+	font-weight:500;
+	color:#E9454A;
+	display: inline-flex;
+	align-items:center;
+	margin-right:5px;
+}
+.main__treatments{
+	position: relative;
+}
+.main__treatments:before{
+	content:"";
+	position: absolute;
+	left:0px;
+	right:0px;
+	top:0px;
+	bottom:90px;
+	margin-top:auto;
+	margin-left:auto;
+	margin-right:auto;
+	width:1px;
+	height:80%;
+	background-color:#3B3735;
+	opacity:.2;
+}
+.head__treatments{
+	margin-bottom:70px;
+}
+.head__treatments>h6{
+    margin: 0px;
+    color: #3290A7;
+    font-family: "Pacifico" , sans-serif;
+    font-size: 45px;
+    font-weight: 300;
+}
+.head__treatments>h2{
+	margin:0px;
+	color:#E9454A;
+	font-size:80px;
+	line-height:80px;
+	font-weight:bold;
+}
+.content__myth{
+	margin-top:20px;
+}
+.content__myth>p{
+	font-size:21px;
+	line-height:31px;
+	margin:0px;
+	color:#fff;
+}
+.treatments__block .head__treatments{
+	position: relative;
+	max-width:1040px;
+}
+.treatments__block .treat__image{
+	position: absolute;
+}
+.treatments__block .treat__image.first__image{
+	top:-150px;
+	left:-50px;
+}
+.treatments__block .treat__image.second__image{
+	top:-220px;
+	left:180px;
+}
+.treatments__block .treat__image.third__image{
+	top:-160px;
+	left:48%;
+}
+.treatments__block .treat__image.fourth__image{
+	top:-140px;
+	right:30px;
+}
+.elem__myth{
+	position: relative;
+}
+.elem__myth .myth__image{
+	position: absolute;
+	right:0px;
+	top:0px;
+}
+.inner__myths>.column__myths:nth-child(1)>.elem__myth:nth-child(1) .head__myth{
+	padding-right:110px;
+}
+.inner__myths>.column__myths:nth-child(1)>.elem__myth:nth-child(1) .content__myth{
+	padding-right: 100px;
+}
+.inner__myths>.column__myths:nth-child(1)>.elem__myth:nth-child(1) .myth__image{
+	top:20px;
+	right:20px;
+}
+
+.inner__myths>.column__myths:nth-child(1)>.elem__myth:nth-child(2) .head__myth{
+	padding-right:110px;
+}
+
+.inner__myths>.column__myths:nth-child(1)>.elem__myth:nth-child(3) .head__myth{
+	padding-right:110px;
+}
+.inner__myths>.column__myths:nth-child(1)>.elem__myth:nth-child(3) .myth__image{
+	right:50px;
+}
+
+.inner__myths>.column__myths:nth-child(1)>.elem__myth:nth-child(4) .head__myth{
+	padding-right:130px;
+}
+
+.inner__myths>.column__myths:nth-child(1)>.elem__myth:nth-child(4) .myth__image{
+	right:15px;
+	top:-45px;
+}
+
+.inner__myths>.column__myths:nth-child(2)>.elem__myth:nth-child(1) .head__myth{
+	padding-right:110px;
+}
+.inner__myths>.column__myths:nth-child(2)>.elem__myth:nth-child(1) .myth__image{
+	top:0px;
+	right:30px;
+}
+
+.inner__myths>.column__myths:nth-child(2)>.elem__myth:nth-child(2) .myth__image{
+	top:-20px;
+	right:70px;
+}
+
+.inner__myths>.column__myths:nth-child(2)>.elem__myth:nth-child(3) .myth__image{
+	top:60px;
+	right:70px;
+}
+
+.inner__myths>.column__myths:nth-child(2)>.elem__myth:nth-child(4) .myth__image{
+	top:25px;
+	right:-40px;
+}
+.why__diabet .head__why>h6{
+	position: relative;
+}
+@media (max-width:1360px){
+	.syrup__block .syrup__image{
+		margin-right:170px;
+	}
+	.outer__why--diabet{
+		padding-right:120px;
+		padding-left:50px;
+	}
+}
+@media (max-width:1280px){
+	.syrup__block .syrup__image{
+		margin-right:110px;
+	}
+	.outer__diabet .text__info{
+		margin-right:80px;
+	}
+	.top__circulatory .txt__circulatory>h2{
+		font-size:45px;
+		line-height:54px;
+	}
+	.top__circulatory .txt__circulatory>p , .syrup__block .syrup__text>p{
+		font-size:20px;
+	}
+	.top__circulatory .txt__circulatory>h6{
+		font-size:38px;
+	}
+	.syrup__block .syrup__text>p.weight__txt{
+		font-size:23px;
+	}
+	.top__circulatory .txt__circulatory>p.big__txt{
+		font-size:22px;
+	}
+	.top__circulatory{
+		margin-bottom:45px;
+	}
+}
+@media (max-width:1200px){
+	.inner__symptoms{
+		grid-column-gap:40px;
+	}
+	.why__diabet .head__why>h6{
+		font-size:40px;
+	}
+	.why__diabet .head__why>h2{
+		font-size:70px;
+		line-height:70px;
+		margin-top:20px;
+		margin-bottom:15px;
+	}
+	.head__symptoms>h2{
+		font-size:50px;
+		line-height:50px;
+		text-align:center;
+	}
+	.inner__symptoms>.elem__symptom>.symptom__image{
+		margin-right:25px;
+	}
+	.inner__symptoms>.elem__symptom .symptom__text>p{
+		font-size:18px;
+		line-height:25px;
+	}
+	.inner__symptoms>.elem__symptom .symptom__text>h6{
+		font-size:26px;
+	}
+	.head__symptoms>h6{
+		font-size:35px;
+		line-height:35px;
+	}
+	.why__diabet{
+		padding-top:60px;
+		padding-bottom:70px;
+	}
+	.info__head--why>p.weight__txt{
+		font-size:23px;
+		line-height:30px;
+	}
+	.info__head--why>p , .info__harmful>p{
+		font-size:20px;
+	}
+	.elem__harmful .weight__harmful>p{
+		font-size:23px;
+		line-height:30px;
+	}
+	.outer__why--diabet{
+		padding-left:30px;
+		padding-right:30px;
+	}
+	.syrup__block .syrup__image>img{
+		max-width:340px;
+	}
+	.outer__circulatory{
+		padding-left:30px;
+		padding-right:30px;
+	}
+	.text__info>h1{
+		font-size:70px;
+		line-height: 70px;
+		margin:12px 0px;
+	}
+	.text__info .desc p{
+		font-size:18px;
+		line-height:27px;
+	}
+	.image__diabet>img{
+		max-width:290px;
+	}
+	.outer__diabet{
+		min-height:530px;
+	}
+	.image__diabet{
+		top:90px;
+	}
+	.outer__diabet .text__info{
+		margin-right:50px;
+	}
+	.text__info>p{
+		font-size:40px;
+	}
+	.inner__harmful, .info__head--why{
+		padding-left:0px;
+	}
+	.inner__symptoms{
+		padding:50px 30px;
+	}
+}
+
+.body__arrow>.small__arrow{
+	display: none;
+}
+.arrow__small{
+	display: none;
+}
+@media (max-width:991px){
+	.inner__symptoms{
+		grid-template-columns:1fr;
+	}
+	.why__diabet{
+		padding-top:0px;
+		padding-bottom:50px;
+	}
+	.circulatory__block{
+		margin-bottom:-20px;
+	}
+	.image__circulatory>img{
+		max-width:350px;
+		width:100%;
+	}
+	.top__circulatory{
+		margin-bottom:25px;
+	}
+	.syrup__block .syrup__image>img{
+		max-width:230px;
+	}
+	.syrup__text>p.weight__txt:last-child{
+		padding-right:200px;
+	}
+	.head__symptoms>h2{
+		font-size:36px;
+		line-height:40px;
+	}
+	.syrup__block .syrup__image{
+		margin-top:-80px;
+	}
+	.top__circulatory .txt__circulatory>h2{
+		font-size:36px;
+	}
+	.head__symptoms>h6{
+		font-size:30px;
+	}
+	.top__circulatory .txt__circulatory>h6{
+		font-size:32px;
+	}
+	.top__circulatory .txt__circulatory>p, .syrup__block .syrup__text>p{
+		font-size:18px;
+	}
+	.syrup__block .syrup__text>p.weight__txt{
+		font-size:21px;
+	}
+	.top__circulatory .txt__circulatory>p.big__txt{
+		font-size:21px;
+	}
+	.top__circulatory{
+		display: flex;
+		flex-direction:column;
+		justify-content: center;
+		align-items:center;
+	}
+	.top__circulatory .txt__circulatory{
+		margin-right:0px;
+		max-width:100%;
+		width:100%;
+	}
+	.top__circulatory .txt__circulatory>p{
+		max-width:100%;
+	}
+	.syrup__block{
+		flex-direction:column-reverse;
+	}
+	.syrup__block .syrup__text{
+		padding-bottom:30px;
+	}
+	.syrup__block .syrup__image{
+		margin-right: 0px;
+	}
+	.top__circulatory .txt__circulatory{
+		padding-top:60px;
+	}
+	.outer__body .body__text{
+		margin-left:auto;
+		margin-right:auto;
+		width:100%;
+		max-width:200px;
+		margin-bottom:-90px;
+	}
+	.outer__body .body__text>h6{
+		font-size:28px;
+		line-height:35px;
+		font-weight: 600;
+	}
+	.outer__diabet{
+		flex-direction:column;
+		padding-top: 60px;
+	}
+	.outer__diabet .text__info{
+		margin-right: 0px;
+	}
+	.image__diabet{
+		top:0px;
+		margin-top: 30px;
+		margin-bottom:-67px;
+	}
+	.text__info .desc{
+		margin-top:25px;
+	}
+	.outer__body{
+		justify-content: center;
+		align-items:center;
+		flex-direction:column-reverse;
+	}
+	.outer__body .body__text{
+		margin-right:300px;
+		margin-left:0px;
+	}
+	.body__arrow{
+		transform:rotate(0deg);
+	}
+	.body__arrow>.small__arrow{
+		display: inline-flex;
+		align-items:center;
+		justify-content: center;
+	}
+	.body__arrow>img{
+		display: none;
+	}
+	.body__arrow>.arrow__small{
+		display: inline-flex;
+		max-width:65px;
+	}
+	.body__text .body__arrow{
+		padding-left:0px;
+		display: flex;
+		justify-content: flex-end;
+	}
+	.outer__body .body__text>h6{
+		text-align:left;
+	}
+	.elem__harmful.right__harmful .image__harmful{
+		padding-left:60px;
+		margin-right:40px;
+	}
+	.info__head--why>p, .info__harmful>p{
+		font-size:18px;
+		line-height:26px;
+	}
+	.elem__harmful .weight__harmful>p{
+		font-size:21px;
+		line-height:27px;
+	}
+	.why__diabet .head__why>h2{
+		font-size:60px;
+		line-height:60px;
+	}
+	.info__head--why>p.weight__txt{
+		font-size:22px;
+		line-height:29px;
+	}
+}
+.small__syrup{
+	display: none;
+}
+@media (max-width:767px){
+	.inner__symptoms{
+		grid-row-gap: 30px;
+		padding:45px 15px;
+	}
+	.inner__symptoms>.elem__symptom .symptom__text>p{
+		font-size:16px;
+		line-height:23px;
+	}
+	.symptom__image img{
+		max-width:70px;
+		max-height:120px;
+	}
+	.symptom__image{
+		min-width:80px;
+	}
+	.elem__harmful .weight__harmful>p{
+		font-size:19px;
+		line-height:25px;
+	}
+	.why__diabet .head__why>h2{
+		font-size:50px;
+		line-height:50px;
+	}
+	.why__diabet .head__why>h6{
+		font-size:35px;
+	}
+	.elem__harmful{
+		margin-bottom:20px;
+	}
+	.elem__harmful:last-child{
+		margin-bottom:0px;
+	}
+	.elem__harmful.right__harmful .image__harmful{
+		margin-right:20px;
+	}
+	.elem__harmful.left__harmful .info__harmful{
+		margin-right:20px;
+	}
+	.info__head--why>p.weight__txt{
+		font-size:20px;
+		line-height:27px;
+	}
+	.elem__harmful.right__harmful .image__harmful{
+		padding-left:0px;
+	}
+	.image__harmful img{
+		max-width:120px;
+		max-height:120px;
+	}
+	.info__head--why>p, .info__harmful>p{
+		font-size:16px;
+		line-height:24px;
+	}
+	.outer__why--diabet{
+		padding-left:15px;
+		padding-right:15px;
+	}
+	.top__circulatory .txt__circulatory>p br, .syrup__block .syrup__text>p br{
+		display: none;
+	}
+	.syrup__text>p.weight__txt:last-child{
+		padding-right:130px;
+	}
+	.syrup__block .syrup__image>img{
+		max-width:140px;
+	}
+	.outer__circulatory{
+		padding-left:15px;
+		padding-right:15px;
+	}
+	.top__circulatory .txt__circulatory>p, .syrup__block .syrup__text>p{
+		font-size:16px;
+		line-height:24px;
+	}
+	.top__circulatory .txt__circulatory>p.big__txt{
+		font-size:19px;
+		line-height:27px;
+	}
+	.syrup__block .syrup__text>p.weight__txt{
+		font-size:19px;
+		line-height:27px;
+	}
+	.outer__body .body__text{
+		max-width:175px;
+	}
+	.body__text .body__arrow{
+		padding-right:30px;
+	}
+	.outer__body .body__text{
+		margin-right:230px;
+	}
+	.outer__body .body__text>h6{
+		font-size:24px;
+		line-height:30px;
+	}
+	.body__arrow>.arrow__small{
+		max-width:55px;
+	}
+	.text__info .desc p br{
+		display: none;
+	}
+	.text__info .desc p{
+		max-width:325px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.text__info>h1{
+		font-size:60px;
+		line-height:67px;
+		text-align:center;
+	}
+	.text__info>p{
+		font-size:35px;
+	}
+}
+.syrup__small{
+	display: none;
+}
+@media (max-width:480px){
+	.inner__symptoms{
+		display: flex;
+		flex-direction:column;
+	}
+	.inner__symptoms>.elem__symptom:nth-child(1){
+		order:1;
+	}
+	.inner__symptoms>.elem__symptom:nth-child(3){
+		order:2;
+	}
+	.inner__symptoms>.elem__symptom:nth-child(5){
+		order:3;
+	}
+	.inner__symptoms>.elem__symptom:nth-child(7){
+		order:4;
+	}
+	.inner__symptoms>.elem__symptom:nth-child(2){
+		order:5;
+	}
+	.inner__symptoms>.elem__symptom:nth-child(4){
+		order:6;
+	}
+	.inner__symptoms>.elem__symptom:nth-child(6){
+		order:7;
+	}
+	.inner__symptoms>.elem__symptom{
+		flex-direction:column;
+		position: relative;
+	}
+	.inner__symptoms>.elem__symptom .symptom__text>p{
+		font-size:14px;
+		line-height:19px;
+	}
+	.symptom__image>img{
+		max-height: 100px;
+	}
+	.symptom__image{
+		min-height:100px;
+		margin-bottom:15px;
+	}
+	.symptom__text>h6{
+		position: absolute;
+		text-align:left;
+		max-width:110px;
+		color:#3FB4B0;
+		font-weight:300;
+		top:0px;
+		min-height:100px;
+		display: flex;
+		align-items:center;
+		font-size:35px;
+		line-height:41px;
+		left:100px;
+	}
+	.head__symptoms>h2{
+		font-size:26px;
+		line-height:32px;
+		max-width:250px;
+	}
+	.head__symptoms>h6{
+		font-size:24px;
+		line-height:24px;
+		margin-bottom:5px;
+	}
+	.head__symptoms{
+		padding:30px 0px;
+		padding-top:40px;
+	}
+	.why__diabet .head__why>h2{
+		margin:10px 0px;
+	}
+	.why__diabet{
+		padding-bottom:35px;
+	}
+	.elem__harmful .weight__harmful>p{
+		font-size:17px;
+		line-height:23px;
+	}
+	.image__harmful img{
+		max-width:95px;
+		max-height:95px;
+	}
+	.why__diabet .head__why>h6{
+		font-size:31px;
+	}
+	.why__diabet .head__why>h2{
+		font-size:26px;
+		line-height:26px;
+	}
+	.info__head--why>p.weight__txt{
+		font-size:14px;
+		line-height:22px;
+	}
+	.info__head--why>p, .info__harmful>p{
+		font-size:14px;
+		line-height:22px;
+	}
+	.circulatory__block{
+		margin-bottom:0px;
+	}
+	.circulatory__block>img{
+		display: inline-flex;
+		align-items:center;
+		justify-content: center;
+	}
+	.circulatory__block{
+		background-color:#E11948;
+		background-image: url('../img/syrupsmall.png');
+		background-repeat: no-repeat;
+		background-position:left bottom;
+		background-size:100%;
+	}
+	.top__circulatory .txt__circulatory{
+		padding-top: 40px;
+	}
+	.top__circulatory{
+		margin-bottom:15px;
+	}
+	.syrup__text>p.weight__txt:last-child{
+		padding-right:100px;
+	}
+	.top__circulatory .txt__circulatory>p.big__txt , .syrup__block .syrup__text>p.weight__txt{
+		font-size:17px;
+		line-height:21px;
+	}
+	.top__circulatory .txt__circulatory>h2{
+		font-size:30px;
+		line-height:36px;
+		margin:0px;
+	}
+	.top__circulatory .txt__circulatory>p, .syrup__block .syrup__text>p{
+		font-size:14px;
+		line-height:21px;
+	}
+	.top__circulatory .txt__circulatory>h6{
+		font-size:24px;
+	}
+	.syrup__block .syrup__image>img{
+		max-width:120px;
+	}
+	.syrup__block .syrup__image{
+		margin-top:-100px;
+	}
+	.body__image>img{
+		max-width:200px;
+	}
+	.outer__body .body__text>h6{
+		font-size:21px;
+		line-height:25px;
+	}
+	.outer__body .body__text{
+		padding-top:0px;
+		max-width: 140px;
+		margin-bottom:-65px;
+		margin-right:150px;
+	}
+	.body__text .body__arrow{
+		padding-right:25px;
+	}
+	.outer__diabet{
+		padding-top:45px;
+	}
+	.text__info .desc p{
+		font-size:15px;
+		line-height:20px;
+		max-width:275px;
+	}
+	.text__info>p{
+		font-size:32px;
+	}
+	.text__info>h1{
+		font-size:54px;
+		line-height:62px;
+	}
+	.image__diabet>img{
+		max-width:200px;
+	}
+	.image__diabet{
+		margin-bottom:-50px;
+	}
+	.circulatory__block>img{
+		display: none;
+	}
+	.circulatory__block>img.syrup__small{
+		display: inline-flex;
+		align-items:center;
+		justify-content: center;
+	}
+}
+@media (max-width:400px){
+	.top__circulatory .txt__circulatory>h2{
+		font-size:26px;
+		line-height:32px;
+	}
 }
