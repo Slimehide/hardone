@@ -620,6 +620,40 @@ body *{
 		padding-right:120px;
 		padding-left:50px;
 	}
+	.head__myth>p{
+		font-size:38px;
+		line-height:44px;
+	}
+	.inner__myths>.column__myths:nth-child(2)>.elem__myth:nth-child(1) .head__myth{
+		padding-right:125px;
+	}
+	.inner__myths>.column__myths:nth-child(2)>.elem__myth:nth-child(4) .head__myth{
+		padding-right:80px;
+	}
+	.inner__myths>.column__myths:nth-child(2)>.elem__myth:nth-child(1) .myth__image{
+		top:-30px;
+		right:0px;
+	}
+	.inner__myths>.column__myths:nth-child(2)>.elem__myth:nth-child(3) .head__myth{
+		align-items:center;
+	}
+	.inner__myths>.column__myths:nth-child(2)>.elem__myth:nth-child(3) .myth__image{
+		top:20px;
+		right:0px;
+	}
+	.elem__treatment .content__treatment>p{
+		font-size:20px;
+		line-height:30px;
+	}
+	.head__treatment>h6{
+		font-size:30px;
+	}
+	.side__effects>p{
+		font-size:26px;
+	}
+	.side__effects>ul li{
+		font-size:20px;
+	}
 }
 @media (max-width:1280px){
 	.syrup__block .syrup__image{
@@ -647,8 +681,71 @@ body *{
 	.top__circulatory{
 		margin-bottom:45px;
 	}
+	.inner__myths>.column__myths:nth-child(1)>.elem__myth:nth-child(1) .content__myth{
+		padding-right:110px;
+	}
 }
 @media (max-width:1200px){
+	.head__treatments>h2{
+		font-size:70px;
+		line-height:70px;
+	}
+	.head__treatments>h6{
+		font-size:35px;
+		line-height:35px;
+	}
+	.inner__myths>.column__myths:nth-child(2)>.elem__myth:nth-child(4) .myth__image{
+		top:auto;
+	}
+	.inner__myths>.column__myths:nth-child(2)>.elem__myth:nth-child(4) .head__myth{
+		align-items:center;
+	}
+	.inner__myths>.column__myths:nth-child(2)>.elem__myth:nth-child(2) .head__myth{
+		padding-right:50px;
+		max-width:400px;
+	}
+	.inner__myths>.column__myths:nth-child(2)>.elem__myth:nth-child(2) .myth__image{
+		top:30px;
+		right: 40px;
+	}
+	.inner__myths>.column__myths:nth-child(2)>.elem__myth:nth-child(1) .myth__image{
+		top:0px;
+		right:0px;
+	}
+	.inner__myths>.column__myths:nth-child(1)>.elem__myth:nth-child(2) .myth__image{
+		top:-20px;
+		right:-20px;
+	}
+	.inner__myths>.column__myths:nth-child(1)>.elem__myth:nth-child(2) .head__myth{
+		padding-right:95px;
+	}
+	.inner__myths>.column__myths:nth-child(2)>.elem__myth:nth-child(1) .head__myth{
+		padding-right:110px;
+	}
+	.myths__block{
+		padding-bottom:220px;
+	}
+	.myth__image>img{
+		max-width:120px;
+	}
+	.inner__myths>.column__myths:nth-child(1)>.elem__myth:nth-child(1) .content__myth{
+		padding-right:120px;
+	}
+	.head__myths>h2{
+		font-size:80px;
+	}
+	.head__myths>h6{
+		font-size:35px;
+		line-height:35px;
+	}
+	.head__myth>p{
+		font-size:32px;
+		line-height:38px;
+	}
+	.content__myth>p{
+		font-size:19px;
+		line-height:29px;
+	}
 	.inner__symptoms{
 		grid-column-gap:40px;
 	}
@@ -745,6 +842,95 @@ body *{
 	display: none;
 }
 @media (max-width:991px){
+	.column__myths{
+		margin-bottom:20px;
+	}
+	.column__myths:last-child{
+		margin-bottom:0px;
+	}
+	.head__myths>h2{
+		font-size:60px;
+		line-height:60px;
+	}
+	.head__myths{
+		margin-bottom:15px;
+	}
+	.head__myths>h6{
+		font-size:30px;
+		margin-bottom:5px;
+		line-height:40px;
+	}
+	.inner__myths{
+		padding-left:30px;
+		padding-right:30px;
+	}
+	.content__myth{
+		padding:0px!important;
+	}
+	.myths__block{
+		padding-top:50px;
+		padding-bottom: 50px;
+		background-color:green;
+	}
+	.myth__image>img{
+		max-height:110px;
+	}
+	.head__myths{
+		flex-direction:column;
+		justify-content: center;
+		align-items:center;
+	}
+	.inner__myths>.column__myths .elem__myth .head__myth{
+		padding:0px!important;
+		max-width:100%!important;
+	}
+	.head__myth>p{
+		width:100%;
+	}
+	.head__myth>p br{
+		display: none;
+	}
+	.symptoms__block{
+		margin-bottom:-40px;
+	}
+	.elem__myth .myth__image{
+		position: static;
+		margin-bottom:20px;
+	}
+	.head__myth>p{
+		margin-bottom:0px;
+		font-size:26px;
+		font-weight:600;
+	}
+	.content__myth>p{
+		font-size:16px;
+		font-weight:400;
+		line-height:21px;
+	}
+	.elem__myth{
+		margin-bottom:20px;
+		max-width:540px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.elem__myth:last-child{
+		margin-bottom:0px;
+	}
+	.content__myth{
+		margin-top:0px;
+	}
+	.inner__myths>.column__myths .elem__myth .head__myth{
+		display: flex;
+		flex-direction:column-reverse;
+		justify-content: center;
+		align-items:center;
+	}
+	.head__myths>h6{
+		margin-right:0px;
+	}
+	.inner__myths{
+		grid-template-columns:1fr;
+	}
 	.inner__symptoms{
 		grid-template-columns:1fr;
 	}
@@ -898,11 +1084,36 @@ body *{
 		font-size:22px;
 		line-height:29px;
 	}
+	.myths__block{
+		background:url('../img/diabeteback.png');
+		background-position:center;
+		background-repeat: no-repeat;
+		background-size:100% 100%;
+		padding-top:100px;
+		padding-bottom:90px;
+	}
 }
 .small__syrup{
 	display: none;
 }
 @media (max-width:767px){
+	.head__myths>h2{
+		font-size:50px;
+		line-height:50px;
+	}
+	.head__myth>p{
+		font-size:22px;
+		font-weight:600;
+		line-height:29px;
+	}
+	.content__myth>p{
+		font-size:15px;
+		line-height:20px;
+	}
+	.inner__myths{
+		padding-left:15px;
+		padding-right:15px;
+	}
 	.inner__symptoms{
 		grid-row-gap: 30px;
 		padding:45px 15px;
@@ -1022,6 +1233,29 @@ body *{
 	display: none;
 }
 @media (max-width:480px){
+	.head__myths>h6{
+		font-size:24px;
+		line-height:24px;
+	}
+	.head__myths>h2{
+		font-size:26px;
+	}
+	.myth__image>img{
+		max-width:100px;
+		max-height:80px;
+	}
+	.symptoms__block{
+		margin-bottom:-60px;
+	}
+	.head__myth>p{
+		font-size:20px;
+		font-weight:600;
+		line-height:24px;
+	}
+	.content__myth>p{
+		font-size:14px;
+		line-height:19px;
+	}
 	.inner__symptoms{
 		display: flex;
 		flex-direction:column;
