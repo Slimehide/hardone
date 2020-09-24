@@ -1046,6 +1046,123 @@ body *{
 .next__step{
 	margin-top:80px;
 }
+.supplements__block{
+	margin-top:25px;
+	position: relative;
+}
+.supplements__block>img{
+	position: absolute;
+	max-width:130px;
+	top:0px;
+	right:33%;
+}
+.supplements__block .outer__supplements>h2{
+	text-align:center;
+	color:#fff;
+	font-size:80px;
+	font-weight:bold;
+	margin:0px;
+	line-height: 100px;
+}
+.supplements__block .outer__supplements>h6{
+	text-align:center;
+	margin-top:0px;
+	color:#D5ECDD;
+	font-size:74px;
+	font-weight:300;
+	margin-bottom:0px;
+	font-family:"Pacifico" , sans-serif;
+}
+.supplements__block .outer__supplements{
+	display: flex;
+	flex-direction:column;
+	justify-content: flex-end;
+	min-height:750px;
+	align-items:center;
+	padding-bottom:40px;
+}
+.supplements__block{
+	background:url('../img/supplements.png');
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:top;
+}
+.diabet__compounds .head__compounds>h2{
+	color:#49AC6A;
+	font-size:60px;
+	line-height:72px;
+	font-weight: 900;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.outer__compounds{
+	max-width:1400px;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	padding-left:80px;
+	padding-right: 80px;
+}
+.compounds__inner{
+	display: grid;
+	grid-template-columns:repeat(2 , 1fr);
+	grid-column-gap:100px;
+}
+ .elem__compound .text__compound ul li{
+	display: flex;
+	font-size:21px;
+	line-height:30px;
+	color:#2B2523;
+	align-items:flex-start;
+}
+ .elem__compound .text__compound ul span{
+	display: inline-flex;
+	align-content:center;
+	justify-content: center;
+	position: relative;
+	top:9px;
+	margin-right:5px;
+}
+.diabet__compounds{
+	padding-top:30px;
+	padding-bottom:200px;
+}
+.elem__compound{
+	margin-bottom:40px;
+}
+.elem__compound:last-child{
+	margin-bottom:0px;
+}
+ .elem__compound .text__compound ul{
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+}
+ .elem__compound .text__compound>p{
+	margin:0px;
+	color:#49AC6A;
+	margin-bottom:5px;
+	font-size:30px;
+	font-weight:bold;
+	line-height:36px;
+}
+ .elem__compound .image__compound{
+	display: flex;
+	align-items:center;
+	margin-right:25px;
+	justify-content: center;
+}
+ .elem__compound .image__compound img{
+	max-width:98px;
+	border-radius:250px;
+}
+ .elem__compound{
+	display: flex;
+	align-items:flex-start;
+}
+.diabet__compounds .head__compounds{
+	margin-bottom:50px;
+}
 @media (max-width:1360px){
 	.lifestyle__block>.head__lifestyle>.lifestyle__image>img{
 		max-width:740px;
@@ -1102,6 +1219,9 @@ body *{
 	}
 }
 @media (max-width:1280px){
+	.compounds__inner{
+		grid-column-gap:70px;
+	}
 	.lifestyle__block>.head__lifestyle>.lifestyle__image>img{
 		max-width:670px;
 	}
@@ -1164,6 +1284,29 @@ body *{
 	width:100%;
 }
 @media (max-width:1200px){
+	.elem__compound .image__compound{
+		margin-right:20px;
+	}
+	.outer__compounds{
+		padding-left:70px;
+		padding-right:70px;	
+	}
+	.supplements__block>img{
+		right:30%;
+	}
+	.compounds__inner{
+		grid-column-gap:40px;
+	}
+	.supplements__block .outer__supplements{
+		min-height: 650px;
+	}
+	.supplements__block .outer__supplements>h2{
+		font-size:60px;
+		line-height:60px;
+	}
+	.supplements__block .outer__supplements>h6{
+		font-size:64px;
+	}
 	.outer__next>h2{
 		font-size:50px;
 	}
@@ -1476,6 +1619,9 @@ body *{
 	.image__treatment{
 		margin-bottom:25px;
 	}
+	.diabet__compounds{
+		padding-bottom:150px;
+	}
 }
 
 
@@ -1486,6 +1632,44 @@ body *{
 	display: none;
 }
 @media (max-width:991px){
+	.elem__compound .text__compound ul span{
+		top:7px;
+	}
+	.elem__compound .text__compound>p{
+		font-size:26px;
+	}
+	.elem__compound .text__compound ul li{
+		font-size:19px;
+		line-height: 28px;
+	}
+	.diabet__compounds .head__compounds{
+		max-width:740px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.diabet__compounds{
+		padding-bottom:120px;
+	}
+	.compounds__inner{
+		grid-template-columns:1fr;
+		justify-content: center;
+		align-items:center;
+	}
+	.compounds__inner>.elem__compound{
+		max-width:740px;
+		width:100%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.diabet__compounds .head__compounds>h2{
+		font-size:50px;
+		line-height:62px;
+	}
+	.supplements__block>img{
+		right:30%;
+		max-width:90px;
+		top:70px;
+	}
 	.outer__next>h2{
 		font-size:40px;
 	}
@@ -1975,6 +2159,9 @@ body *{
 	.content__lifestyle>p:last-child{
 		margin-bottom:0px;
 	}
+	.diabet__compounds .head__compounds{
+		margin-bottom:35px;
+	}
 }
 .small__syrup{
 	display: none;
@@ -1983,6 +2170,31 @@ body *{
 	display: none;
 }
 @media (max-width:767px){
+	.diabet__compounds .head__compounds>h2{
+		font-size:45px;
+		line-height:55px;
+	}
+	.outer__compounds{
+		padding-left:15px;
+		padding-right:15px;
+	}
+	.supplements__block>img{
+		top:0px;
+		right:27%;
+	}
+	.supplements__block .outer__supplements>h2{
+		font-size:50px;
+		line-height:50px;
+	}
+	.supplements__block .outer__supplements>h6{
+		font-size:54px;
+	}
+	.supplements__block .outer__supplements{
+		min-height:520px;
+	}
+	.supplements__block{
+		background-position: top center;
+	}
 	.outer__next>h2{
 		font-size:40px;
 		margin-bottom:25px;
@@ -2312,6 +2524,10 @@ body *{
 	.after__advice{
 		margin-top:35px;
 	}
+	.elem__compound .text__compound ul li{
+		font-size:17px;
+		line-height:26px;
+	}
 }
 .syrup__small{
 	display: none;
@@ -2339,6 +2555,75 @@ body *{
 	display: none;
 }
 @media (max-width:480px){
+	.diabet__compounds{
+		padding-bottom:20px;
+	}
+	.elem__compound{
+		position: relative;
+	}
+	.elem__compound .text__compound{
+		margin-top:20px;
+	}
+	.elem__compound .image__compound img{
+		max-width:95px;
+	}
+	.elem__compound .text__compound>p{
+		position: absolute;
+		top:0px;
+		min-height:95px;
+		display: flex;
+		align-items: center;
+		left:115px;
+		max-width:140px;
+	}
+	.elem__compound .text__compound ul span{
+		top:5px;
+	}
+	.diabet__compounds .head__compounds{
+		margin-bottom:20px;
+	}
+	.compounds__inner>.elem__compound{
+		flex-direction:column;
+	}
+	.elem__compound{
+		margin-bottom:30px;
+	}
+	.elem__compound:last-child{
+		margin-bottom:0px;
+	}
+	.elem__compound .text__compound ul li{
+		font-size:14px;
+		line-height:21px;
+	}
+	.elem__compound .text__compound>p{
+		font-size:20px;
+		line-height:24px;
+	}
+	.diabet__compounds .head__compounds>h2{
+		font-size:26px;
+		line-height:32px;
+	}
+	.supplements__block>img{
+		display: none;
+	}
+	.supplements__block .outer__supplements>h2{
+		font-size:35px;
+		line-height:43px;
+	}
+	.supplements__block .outer__supplements>h6{
+		font-size:32px;
+	}
+	.supplements__block .outer__supplements{
+		min-height:350px;
+		padding-bottom:12px;
+		margin-top:15px;
+	}
+	.supplements__block{
+		background:url("../img/smallsupplements.png");
+		background-repeat: no-repeat;
+		background-position: top left;
+		background-size:cover;
+	}
 	.outer__next>p{
 		font-size:16px;
 		line-height:24px;
@@ -2782,6 +3067,9 @@ body *{
 	}
 }
 @media (max-width:370px){
+	.supplements__block .outer__supplements{
+		min-height:300px;
+	}
 	.next__step{
 		padding-top:50px;
 	}
