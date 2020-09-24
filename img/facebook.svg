@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43.939" height="45.126" viewBox="0 0 43.939 45.126">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#48a3db"/>
+      <stop offset="1" stop-color="#3063ac"/>
+    </linearGradient>
+  </defs>
+  <g id="Сгруппировать_2354" data-name="Сгруппировать 2354" transform="translate(-2468.328 -9059.23)">
+    <g id="Сгруппировать_2353" data-name="Сгруппировать 2353">
+      <rect id="Прямоугольник_451" data-name="Прямоугольник 451" width="43.939" height="43.939" rx="21.969" transform="translate(2468.328 9059.23)" fill="url(#linear-gradient)"/>
+      <g id="Group_1508" data-name="Group 1508">
+        <g id="Group_1507" data-name="Group 1507">
+          <path id="Path_5490" data-name="Path 5490" d="M2485.216,9104.356h7.087V9086.61h4.944l.527-5.944H2492.3v-3.384c0-1.4.279-1.953,1.636-1.953h3.835v-6.166h-4.906c-5.275,0-7.651,2.322-7.651,6.768v4.744h-3.688v6.018h3.687Z" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
